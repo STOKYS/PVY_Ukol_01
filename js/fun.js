@@ -3,7 +3,7 @@ let spin = 0;
 let arr = [-1, 1];
 let fonts = ["Arial", "Segoe UI", "Cambria", "Courier New", "Impact", "Times New Roman", "Trebuchet MS", "Georgia", "Palatino Linotype", "Comic Sans MS", "Lucida Sans Unicode", "Tahoma", "Lucida Console"];
 let align = ["right", "left", "center", "justify"];
-let posOrNeg, randSize, randSizeFin, randR, randG, randB, randColor, randFont, randAlign;
+/*let posOrNeg, randSize, randSizeFin, randR, randG, randB, randColor, randFont, randAlign;*/
 const main = document.getElementsByTagName("MAIN")[0];
 const titleText = document.getElementById("titleText");
 const footer = document.getElementsByTagName("FOOTER")[0];
@@ -73,7 +73,7 @@ function textChange() {
     if (Math.floor(Math.random() * 15) == 2) {
         main.style.display = "none";
     } else {
-        main.style.display = "inline";
+        main.style.display = "block";
     }
 }
 
